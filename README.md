@@ -41,8 +41,8 @@ Certifique-se de ter **Docker** e **Docker Compose** instalados.
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/<seu-usuario>/distrischool-user-service.git
-cd distrischool-user-service/user-service
+git clone https://github.com/YuriEnomoto/distrischool-user-service.git
+cd distrischool-user-service/user-service/user-service
 
 # Subir os containers
 docker compose up -d --build

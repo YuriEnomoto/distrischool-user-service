@@ -15,7 +15,6 @@ Microserviço responsável pela **gestão de usuários** da plataforma **DistriS
 - **Docker & Docker Compose**
 - **Lombok**
 - **Actuator** (Healthcheck)
-- **Swagger (OpenAPI)** *(opcional para documentação)*
 
 ---
 
@@ -56,8 +55,6 @@ users-db → banco PostgreSQL (porta 5432)
 🧩 Migrations (Flyway)
 Os scripts SQL estão em:
 
-css
-Copiar código
 src/main/resources/db/migration/
 O Flyway é executado automaticamente ao subir o container, criando a tabela users e o histórico em flyway_schema_history.
 
@@ -104,6 +101,4 @@ Hashes válidos começam com $2a$ ou $2b$ e possuem 60 caracteres.
 Exemplo no banco:
 $2b$10$4YVg45c1m8a5J1o0dX2nZ.2p4x1kV9hZFCt4oHq0vT9X0w1qf1U2a
 
-📚 Documentação (Swagger UI)
-Após subir o container, acesse:
-http://localhost:8080/swagger-ui/index.html
+
